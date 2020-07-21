@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href="./styles.css" rel="stylesheet"> 
+</head>
+<body>
+    <ul id="slide-out" class="sidenav sidenav-fixed collapsible menu">
+        <!-- <img src="./LongBlueLogo.jpg" alt="logo" id="logo"> -->
+        <li class="center"><h5>Browse Articles</h5></li>
+        <li>
+            <a class="collapsible-header" href="#!">Gaming <i class="material-icons green-text">fiber_manual_record</i></a>
+            <ul class="collapsible-body green lighten-3">
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+            </ul>
+        </li>
+        <li class="active">
+            <a class="collapsible-header" href="#!">Websites <i class="material-icons blue-text">fiber_manual_record</i></a>
+            <ul class="collapsible-body blue lighten-3">
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="collapsible-header" href="#!">Apps <i class="material-icons purple-text">fiber_manual_record</i></a>
+            <ul class="collapsible-body purple lighten-3">
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="collapsible-header" href="#!">Random <i class="material-icons red-text">fiber_manual_record</i></a>
+            <ul class="collapsible-body red lighten-3">
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="collapsible-header" href="#!">Bruh 1 <i class="material-icons orange-text">fiber_manual_record</i></a>
+            <ul class="collapsible-body orange lighten-3">
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="collapsible-header" href="#!">Bruh 2 <i class="material-icons yellow-text">fiber_manual_record</i></a>
+            <ul class="collapsible-body yellow lighten-3">
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+                <li class="center"><a href="#!">article ex</a></li>
+            </ul>
+        </li>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            window.M.Sidenav.init(elems);
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems2 = document.querySelectorAll('.collapsible');
+            window.M.Collapsible.init(elems2);
+        });
+    </script>
+</body>
+</html>
